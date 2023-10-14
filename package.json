@@ -1,0 +1,34 @@
+{
+  "name": "amidis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build",
+    "lint": "tsc",
+    "type": "module",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vlad19982602/aMidis.git"
+  },
+  "author": "Vlad",
+  "license": "ISC",
+  "bugs": {
+    "url": "git+https://github.com/Vlad19982602/aMidis/issues"
+  },
+  "homepage": "https://github.com/Vlad19982602/aMidis#readme",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "core-js": "^3.33.0",
+    "gulp": "^4.0.2",
+    "webpack": "^5.88.2",
+    "webpack-stream": "^7.0.0"
+  },
+  "resolutions": {
+    "glob-parent": "^5.1.2"
+  }
+}
