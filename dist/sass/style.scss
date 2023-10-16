@@ -62,6 +62,7 @@ body > .flow-container {
 }
 
 header.main-header1 {
+	display: flex;
 	position: fixed;
 	z-index: 999;
     background: #fff;
