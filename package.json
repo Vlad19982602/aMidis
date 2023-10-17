@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "vite build",
     "lint": "tsc",
-    "type": "module",
-    "preinstall": "npx npm-force-resolutions"
+    "type": "module"
   },
   "repository": {
     "type": "git",
@@ -27,8 +26,5 @@
     "gulp": "^4.0.2",
     "webpack": "^5.88.2",
     "webpack-stream": "^7.0.0"
-  },
-  "resolutions": {
-    "glob-parent": "^6.0.2"
   }
 }
