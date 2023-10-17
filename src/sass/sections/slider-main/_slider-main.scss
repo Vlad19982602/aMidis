@@ -4,7 +4,7 @@
 .slider-main {
     /* width: calc(100% + 40px); */
     height: 680px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .slider__container {
@@ -63,4 +63,24 @@
     -o-object-fit: cover;
     font-family: object-fit\:cover;
     object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+	.header-main-menu__item {
+		margin-left: 35px;
+	}
+	.header-main-menu__contacts {
+		margin-left: 100px;
+	}
+	.slider-main {
+        &__sub_title {
+            font-size: 24px;
+        }
+		&__title {
+			font-size: 34px;
+		}
+        &__text-block-top {
+            font-size: 17px;
+        }
+	}
 }
