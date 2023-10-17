@@ -1,0 +1,13 @@
+@media screen and (max-width: 1200px) {
+	.header-main-menu__item {
+		margin-left: 35px;
+	}
+	.header-main-menu__contacts {
+		margin-left: 100px;
+	}
+	.slider-main {
+		&__title {
+			font-size: 34px;
+		}
+	}
+}
