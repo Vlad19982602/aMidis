@@ -1,0 +1,93 @@
+.btn {
+    position: relative;
+    background: transparent;
+    color: #000;
+    border: 1px solid #000;
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.39;
+    text-align: center;
+    width: 100%;
+    max-width: 168px;
+    height: max-content;
+    min-height: 37px;
+    padding: 7px 17px;
+    cursor: pointer;
+    transition-duration: .2s;
+    margin: 5px 0;
+}
+
+.btn:focus, .btn:hover {
+    color:$main-color;
+    background: transparent;
+    border: 1px solid $main-color;
+}
+
+.tabs-nav {
+    position: relative;
+}
+.specialities-block__tabs {
+    position: relative;
+    display: flex;
+    width: 50%;
+    margin-bottom: 10px;
+    /* margin-left: 122px; */
+}
+
+.specialities-block__tab:first-child {
+    margin-right: 20px;
+}
+.specialities-block__tab:nth-child(2) {
+    flex-grow: 1;
+}
+
+.specialities-block__tab.current {
+    color: #fff;
+    background: $main-color;
+    border: 1px solid $main-color;
+}
+
+.specialities-block__tab {
+    max-width: 600px;
+}
+
+.edu22-btn {
+    display: block;
+    cursor: pointer;
+}
+.edu22-btn {
+    position: absolute;
+    top: 23px;
+    right: 24px;
+    width: 36px;
+    height: 36px;
+    /* border-radius: 50px; */
+    background: #FFFFFF;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+p:last-of-type {
+    margin-bottom: 0;
+}
+p:first-of-type {
+    margin-top: 0;
+}
+.edu22-btn-arrow {
+    left: 9px;
+    top: 5px;
+    transform: rotate(135deg);
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: .5s;
+}
