@@ -18,13 +18,23 @@
   "bugs": {
     "url": "git+https://github.com/Vlad19982602/aMidis/issues"
   },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
   "homepage": "https://github.com/Vlad19982602/aMidis#readme",
   "devDependencies": {
     "browser-sync": "^2.29.3",
     "browser-sync-webpack-plugin": "^2.3.0",
     "core-js": "^3.33.0",
+    "chokidar": "^3.5.3",
     "gulp": "^4.0.2",
-    "webpack": "^5.88.2",
+    "glob-stream": "^8.0.0",
+    "glob-watcher": "^6.0.0",
+    "vinyl-fs": "^4.0.0",
+    "eslint": "^8.51.0",
+    "webpack": "^5.76.2",
     "webpack-stream": "^7.0.0"
   }
 }
+
