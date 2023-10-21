@@ -25,7 +25,7 @@
 .header-main-menu__link {
     position: relative;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 16px;
 }
 .header-main-menu__link:before {
     content: "";
@@ -117,7 +117,7 @@
     position: relative;
     text-decoration: none;
     margin-left: 13px;
-    font-size: 10px;
+    font-size: 16px;
 }
 
 .header-mobile {
@@ -145,4 +145,24 @@
     display: flex;
     width: 100%;
     margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+	.header-main-menu__item {
+		margin-left: 35px;
+	}
+	.header-main-menu__contacts {
+		margin-left: 150px;
+	}
+    .header-main-menu__link{
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 992px) {
+    .header-main-menu__link{
+		font-size: 14px;
+	}
+    .header-main-menu__contacts {
+        margin-left: 120px;
+    }
 }
